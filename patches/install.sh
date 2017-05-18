@@ -2,7 +2,7 @@ echo $1
 rootdirectory="$PWD"
 # ---------------------------------
 
-dirs="build system/netd packages/apps/Screencast"
+dirs="build system/netd"
 
 for dir in $dirs ; do
 	cd $rootdirectory
