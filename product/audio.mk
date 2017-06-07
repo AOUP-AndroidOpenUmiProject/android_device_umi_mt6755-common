@@ -6,7 +6,6 @@ PRODUCT_PACKAGES += \
     audio_policy.default \
     libaudio-resampler \
     libaudiopolicymanagerdefault \
-    libmtk_symbols \
     libtinycompress \
     libtinyxml \
     tinymix \

@@ -2,4 +2,4 @@
 USE_MINIKIN := true
 
 #Use dlmalloc instead of jemalloc for mallocs
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true

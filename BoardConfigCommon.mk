@@ -23,13 +23,6 @@ include $(LOCAL_PATH)/board/*.mk
 
 #######################################################################
 
-# Kernel
-TARGET_KMODULES := true
-COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
-
-# Disable memcpy opt (for audio libraries)
-TARGET_CPU_MEMCPY_OPT_DISABLE := true
-
 # EGL
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg
 USE_OPENGL_RENDERER := true
@@ -40,9 +33,6 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
-
-# init
-TARGET_PROVIDES_INIT_RC := true
 
 # system.prop
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
